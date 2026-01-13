@@ -25,7 +25,7 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
       description: [
         "Sou Osvaldo Barbosa Neto, líder de produto com mais de 10 anos de experiência em ambientes de alta complexidade. Minha trajetória é marcada pela construção de produtos que impactam milhões de pessoas, especialmente nos setores de varejo e pagamentos.",
         "Acredito que liderança de produto vai além de roadmaps e métricas. É sobre criar ambientes onde times podem fazer seu melhor trabalho, tomar decisões difíceis com clareza e transformar visão em realidade.",
-        "Minha filosofia é simples: complexidade é inevitável, mas confusão é opcional. Meu trabalho é navegar essa complexidade para entregar soluções elegantes que funcionam."
+        "Minha filosofia é simples: complexidade é inevitável, mas confusão é opcional. Meu trabalho é navegar essa complexidade para entregar soluções eficientes."
       ],
       quote: "\"Produto acontece no encontro entre pessoas, tecnologia e negócio.\""
     },
