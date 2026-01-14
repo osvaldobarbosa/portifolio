@@ -7,7 +7,8 @@ interface SkillsProps {
 }
 
 const Skills: React.FC<SkillsProps> = ({ content }) => {
-  const [activeCategory, setActiveCategory] = useState<string>('all');
+  // Alterado valor inicial de 'all' para 'prod'
+  const [activeCategory, setActiveCategory] = useState<string>('prod');
 
   const allSkills = useMemo(() => {
     return content.categories.flatMap(c => c.skills);

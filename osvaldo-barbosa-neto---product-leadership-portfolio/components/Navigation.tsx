@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Language } from '../types';
-import { Globe } from 'lucide-react';
+import { Globe, Mail } from 'lucide-react';
 import Logo from './Logo';
 
 interface NavigationProps {
@@ -36,7 +36,7 @@ const Navigation: React.FC<NavigationProps> = ({ lang, setLang }) => {
           </span>
         </div>
 
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-3 md:gap-6">
           <div className="hidden md:flex gap-6 text-sm font-medium text-secondary">
             <button onClick={() => scrollToSection('about')} className="hover:text-primary transition-colors">
               {lang === 'pt' ? 'Sobre' : 'About'}
@@ -51,6 +51,15 @@ const Navigation: React.FC<NavigationProps> = ({ lang, setLang }) => {
               {lang === 'pt' ? 'Contato' : 'Contact'}
             </button>
           </div>
+
+          {/* Botão de Contato Mobile */}
+          <button 
+            onClick={() => scrollToSection('contact')}
+            className="md:hidden flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 hover:bg-white/10 transition-colors text-xs font-medium border border-white/5"
+          >
+            <Mail size={14} />
+            <span>{lang === 'pt' ? 'Contato' : 'Contact'}</span>
+          </button>
 
           <button 
             onClick={toggleLang}
