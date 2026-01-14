@@ -19,6 +19,7 @@ export interface CaseStudy {
   decisions: string[];
   result: string;
   technologies: string[];
+  link?: string;
 }
 
 export interface Skill {
