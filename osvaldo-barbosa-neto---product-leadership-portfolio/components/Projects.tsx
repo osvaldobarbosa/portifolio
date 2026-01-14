@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ContentData, CaseStudy } from '../types';
-import { X, ChevronRight, CheckCircle2 } from 'lucide-react';
+import { X, ChevronRight, CheckCircle2, ExternalLink } from 'lucide-react';
 
 interface ProjectsProps {
   content: ContentData['projects'];
@@ -80,6 +80,17 @@ const Projects: React.FC<ProjectsProps> = ({ content }) => {
                       </span>
                     ))}
                   </div>
+                  
+                  {selectedCase.link && (
+                    <a
+                      href={selectedCase.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 mt-2 px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors font-medium text-sm border border-accent/20"
+                    >
+                      Acessar aplicação <ExternalLink size={16} />
+                    </a>
+                  )}
                 </div>
 
                 <div className="space-y-8">
