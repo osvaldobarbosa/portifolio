@@ -162,7 +162,7 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
             "Definição de SLAs claros entre áreas de negócio e tecnologia."
           ],
           result: "Redução de 30% no tempo de ciclo de processos críticos e maior transparência.",
-          technologies: ["BPMN", "Lean", "Gestão de Mudança"]
+          technologies: ["BPMN", "Lean", "Change Management"]
         },
         {
           id: "p6",
@@ -189,10 +189,10 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
           id: "lead", 
           name: "Liderança", 
           skills: [
-            { name: "Liderança de Times", level: "Expert" },
+            { name: "Liderança de Times", level: "Avançado" },
             { name: "Gestão de Stakeholders", level: "Expert" },
             { name: "Mentoria e Desenvolvimento", level: "Avançado" },
-            { name: "Comunicação Executiva", level: "Expert" },
+            { name: "Comunicação Executiva", level: "Avançado" },
             { name: "Agile/Scrum", level: "Avançado" }
           ] 
         },
@@ -200,20 +200,19 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
           id: "prod", 
           name: "Produto", 
           skills: [
-            { name: "Product Discovery", level: "Avançado" },
+            { name: "Product Discovery", level: "Intermediário" },
             { name: "Product Strategy", level: "Expert" },
             { name: "Roadmap Planning", level: "Expert" },
             { name: "User Research", level: "Avançado" },
-            { name: "Métricas de Produto", level: "Avançado" }
+            { name: "Métricas de Produto", level: "Intermediário" }
           ] 
         },
         { 
           id: "tech", 
           name: "Tecnologia", 
           skills: [
-            { name: "APIs e Integrações", level: "Intermediário" },
-            { name: "Sistemas de Pagamento", level: "Expert" },
-            { name: "Low Code / No Code", level: "Avançado" },
+            { name: "Sistemas de Pagamento", level: "Avançado" },
+            { name: "Low Code / No Code", level: "Intermediário" },
             { name: "Automação de Processos", level: "Avançado" }
           ] 
         },
@@ -224,8 +223,8 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
             { name: "Modelo de Negócio", level: "Expert" },
             { name: "Processos de Negócio", level: "Expert" },
             { name: "Investimentos", level: "Avançado" },
-            { name: "Go-to-Market", level: "Avançado" },
-            { name: "Retail Operations", level: "Expert" }
+            { name: "Go-to-Market", level: "Intermediário" },
+            { name: "Retail Operations", level: "Avançado" }
           ] 
         },
       ]
@@ -458,7 +457,7 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
           id: "prod", 
           name: "Product", 
           skills: [
-            { name: "Product Discovery", level: "Advanced" },
+            { name: "Product Discovery", level: "Intermediate" },
             { name: "Product Strategy", level: "Expert" },
             { name: "Roadmap Planning", level: "Expert" },
             { name: "User Research", level: "Advanced" },
