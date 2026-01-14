@@ -76,7 +76,7 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
       items: [
         {
           id: "classtrib",
-          title: "ClassTrib",
+          title: "ClassTrib.com (SaaS)",
           category: "AI & Tax Tech",
           context: "A complexidade da classificação fiscal (NCM) no Brasil gera riscos jurídicos e ineficiência operacional para varejistas e contadores.",
           complexity: "Interpretar descrições de produtos não padronizadas e mapeá-las corretamente em um cenário de legislação tributária dinâmica.",
@@ -87,8 +87,7 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
             "Arquitetura escalável focada em performance e simplicidade de uso."
           ],
           result: "SaaS ativo (classtrib.com) automatizando a consulta tributária, reduzindo erros manuais e otimizando o tempo de cadastro de produtos.",
-          technologies: ["Generative AI", "React/Next.js", "SaaS"],
-          link: "https://class-trib.vercel.app/"
+          technologies: ["Generative AI", "React/Next.js", "SaaS"]
         },
         {
           id: "p1",
@@ -334,7 +333,7 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
       items: [
         {
           id: "classtrib",
-          title: "ClassTrib",
+          title: "ClassTrib.com (SaaS)",
           category: "AI & Tax Tech",
           context: "Tax classification (NCM) complexity in Brazil creates legal risks and operational inefficiency for retailers and accountants.",
           complexity: "Interpreting non-standard product descriptions and mapping them correctly within a dynamic tax legislation environment.",
@@ -345,8 +344,7 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
             "Scalable architecture focused on performance and ease of use."
           ],
           result: "Live SaaS (classtrib.com) automating tax consultation, reducing manual errors, and optimizing product registration time.",
-          technologies: ["Generative AI", "React/Next.js", "SaaS"],
-          link: "https://class-trib.vercel.app/"
+          technologies: ["Generative AI", "React/Next.js", "SaaS"]
         },
         {
           id: "p1",
@@ -470,6 +468,7 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
           id: "tech", 
           name: "Technology", 
           skills: [
+            { name: "APIs & Integrations", level: "Intermediate" },
             { name: "Payment Systems", level: "Expert" },
             { name: "Low Code / No Code", level: "Advanced" },
             { name: "Process Automation", level: "Advanced" }
