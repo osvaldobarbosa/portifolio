@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { Language } from './types';
-import CONTENT  from './constants';
-import Navigation from './components/Navigation';
-import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Experience from './components/Experience';
-import Skills from './components/Skills';
-import Education from './components/EducationPersonal';
-import Contact from './components/Contact';
+import { Language } from './types.ts';
+import { CONTENT } from './constants.tsx';
+import Navigation from './components/Navigation.tsx';
+import Hero from './components/Hero.tsx';
+import About from './components/About.tsx';
+import Projects from './components/Projects.tsx';
+import Experience from './components/Experience.tsx';
+import Skills from './components/Skills.tsx';
+import Education from './components/EducationPersonal.tsx';
+import Contact from './components/Contact.tsx';
 
 const App: React.FC = () => {
   const [lang, setLang] = useState<Language>('pt');
