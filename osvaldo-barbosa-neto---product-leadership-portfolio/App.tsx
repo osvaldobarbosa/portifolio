@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Language } from './types';
-import { CONTENT } from './constants';
+import CONTENT  from './constants';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import About from './components/About';
