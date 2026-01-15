@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Language } from '../types';
+import { Language } from '../types.ts';
 import { Globe, Mail } from 'lucide-react';
-import Logo from './Logo';
+import Logo from './Logo.tsx';
 
 interface NavigationProps {
   lang: Language;
