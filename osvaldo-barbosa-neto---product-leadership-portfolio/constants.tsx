@@ -47,7 +47,7 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
           id: "2",
           role: "Associate Product Manager",
           company: "Grupo Boticário",
-          period: "Dez 2022 - Set 2025",
+          period: "Dez 2022 - Sep 2025",
           description: [
             "Definição da visão de produto alinhada às estratégias do Grupo.",
             "Transformação de dores e oportunidades em backlog priorizado.",
@@ -78,15 +78,15 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
           id: "classtrib",
           title: "ClassTrib",
           category: "AI & Tax Tech",
-          context: "A complexidade da classificação fiscal (NCM) no Brasil gera riscos jurídicos e ineficiência operacional para varejistas e contadores.",
+          context: "A complexidade da classificação fiscal no Brasil gera riscos jurídicos e ineficiência operacional para varejistas e contadores.",
           complexity: "Interpretar descrições de produtos não padronizadas e mapeá-las corretamente em um cenário de legislação tributária dinâmica.",
           role: "Founder & Product Engineer",
           decisions: [
-            "Desenvolvimento de motor de IA Generativa para análise semântica e sugestão de NCMs.",
+            "Desenvolvimento de motor de IA Generativa para análise e sugestão de Classificação Tributária (cClassTrib).",
             "Adoção de estratégia PLG (Product-led Growth) para rápida validação de mercado.",
             "Arquitetura escalável focada em performance e simplicidade de uso."
           ],
-          result: "SaaS ativo (classtrib.com) automatizando a consulta tributária, reduzindo erros manuais e otimizando o tempo de cadastro de produtos.",
+          result: "App digital baseado em IA ativo automatizando a consulta tributária, reduzindo erros manuais e otimizando o tempo de cadastro de produtos.",
           technologies: ["Generative AI", "React/Next.js", "SaaS"],
           link: "https://class-trib.vercel.app/"
         },
@@ -94,45 +94,45 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
           id: "p1",
           title: "Integração PDV + Adyen",
           category: "Payments / Fintech",
-          context: "Necessidade de modernizar a camada de pagamentos do PDV para suportar múltiplos adquirentes globais.",
+          context: "Necessidade de modernizar a camada de pagamentos do PDV, viabilizando a integração com o gateway da Adyen, mantendo compatibilidade com os fluxos já consolidados do TEF tradicional.",
           complexity: "Altíssima criticidade. Qualquer falha impacta diretamente a receita do varejista em tempo real.",
-          role: "Lead PM na orquestração técnica e de negócio.",
+          role: "Lead PM responsável pela orquestração entre negócio, engenharia e parceiros externos.",
           decisions: [
             "Priorização de estabilidade sobre novas features no lançamento.",
-            "Estratégia de rollout gradual por região para mitigar riscos.",
-            "Desenho de fallback automático em caso de falha da adquirente."
+            "Estratégia de rollout gradual por modelo de loja para mitigar riscos.",
+            "Definição de regras para operações stand-alone, timeouts de transação e coexistência com outros TEFs."
           ],
-          result: "Redução de latência no checkout e aumento na taxa de aprovação.",
-          technologies: ["API Rest", "TEF", "Cloud"]
+          result: "Redução de fricção na finalização da venda, aumento da confiabilidade da operação de caixa e base técnica sólida para expansão de meios de pagamento.",
+          technologies: ["API", "TEF", "Local & Cloud"]
         },
         {
           id: "p2",
-          title: "Evolução do Self Checkout",
+          title: "Otimização Operacional do Self Checkout",
           category: "Retail Experience",
-          context: "O sistema legado de descontos gerava atrito na experiência do consumidor final no autoatendimento.",
-          complexity: "Regras de negócio complexas (combo, leve 3 pague 2) conflitavam com a UX simplificada do totem.",
-          role: "Product Manager responsável pelo redesign da jornada.",
+          context: "O fluxo legado do Self Checkout apresentava alto atrito operacional e recorrentes falhas na conferência de peso, impactando diretamente a experiência do cliente, a confiança do operador e a estabilidade da operação em loja.",
+          complexity: "Alta complexidade técnica e operacional, envolvendo integração com hardware (balança), múltiplos estados de fluxo, tolerância dinâmica de peso e necessidade de respostas em tempo real sem comprometer a UX do autoatendimento.",
+          role: "Product Manager responsável pelo discovery em campo e otimização da jornada de Self Checkout",
           decisions: [
-            "Simplificação do motor de promoção no front-end.",
-            "Investigação profunda (Discovery) com usuários em loja.",
-            "Refatoração do cálculo de carrinho para performance."
+            "Otimização do fluxo de conferência de peso",
+            "Refatoração da arquitetura de balança",
+            "Controle de tolerância de peso mais inteligente"
           ],
-          result: "Aumento da adoção do Self Checkout e redução do tempo de fila.",
+          result: "Experiência de Self Checkout mais fluida, estável e confiável, com menos interrupções e menor dependência de suporte humano.",
           technologies: ["UX Research", "Hardware Integration", "Analytics"]
         },
         {
           id: "p3",
-          title: "Produto Patrio (IA + Low Code)",
-          category: "Innovation",
-          context: "Demanda por criação rápida de aplicações internas sem depender excessivamente de dev senior.",
-          complexity: "Equilibrar flexibilidade (Low Code) com governança e segurança corporativa.",
-          role: "Visão de Produto e Go-to-Market.",
+          title: "Patrio (Gestão de Patrimônio)",
+          category: "AI & Investments",
+          context: "Crescimento da demanda por controle e visibilidade do patrimônio pessoal, incluindo investimentos financeiros e imóveis, de forma centralizada, simples e orientada à tomada de decisão.",
+          complexity: "Apuração precisa de rentabilidade, valorização e retorno ajustado por classe de ativo.",
+          role: "Founder & Product Engineer",
           decisions: [
-            "Foco inicial em casos de uso administrativos para validar o MVP.",
-            "Integração nativa com IA para geração de queries.",
-            "Definição de guardrails de segurança desde o dia 0."
+            "Posicionar o produto como painel executivo de gestão de investimentos, não como controle operacional.",
+            "Separar claramente ativos financeiros e imobiliários, respeitando suas dinâmicas distintas de retorno.",
+            "Arquitetura preparada para escalar como plataforma SaaS de inteligência patrimonial."
           ],
-          result: "Redução de 40% no tempo de entrega de ferramentas internas.",
+          result: "Visão executiva, em tempo real, da evolução patrimonial, rentabilidade e alocação de capital, permitindo decisões de investimento mais estratégicas, rápidas e fundamentadas em dados.",
           technologies: ["AI/LLM", "Low Code", "SaaS"]
         },
         {
@@ -336,15 +336,15 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
           id: "classtrib",
           title: "ClassTrib",
           category: "AI & Tax Tech",
-          context: "Tax classification (NCM) complexity in Brazil creates legal risks and operational inefficiency for retailers and accountants.",
+          context: "Tax classification complexity in Brazil creates legal risks and operational inefficiency for retailers and accountants.",
           complexity: "Interpreting non-standard product descriptions and mapping them correctly within a dynamic tax legislation environment.",
           role: "Founder & Product Engineer",
           decisions: [
-            "Developing a Generative AI engine for semantic analysis and NCM suggestions.",
+            "Development of Generative AI engine for analysis and Tax Classification suggestion (cClassTrib).",
             "Adopting a PLG (Product-led Growth) strategy for rapid market validation.",
             "Scalable architecture focused on performance and ease of use."
           ],
-          result: "Live SaaS (classtrib.com) automating tax consultation, reducing manual errors, and optimizing product registration time.",
+          result: "Active AI-based digital app automating tax consultation, reducing manual errors, and optimizing product registration time.",
           technologies: ["Generative AI", "React/Next.js", "SaaS"],
           link: "https://class-trib.vercel.app/"
         },
@@ -352,45 +352,45 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
           id: "p1",
           title: "POS + Adyen Integration",
           category: "Payments / Fintech",
-          context: "Need to modernize the POS payment layer to support multiple global acquirers.",
+          context: "Need to modernize the POS payment layer, enabling integration with Adyen gateway, while maintaining compatibility with consolidated traditional TEF flows.",
           complexity: "High criticality. Any failure directly impacts retailer revenue in real-time.",
-          role: "Lead PM in technical and business orchestration.",
+          role: "Lead PM responsible for orchestration between business, engineering, and external partners.",
           decisions: [
             "Prioritizing stability over new features at launch.",
-            "Gradual rollout strategy by region to mitigate risks.",
-            "Designing automatic fallback in case of acquirer failure."
+            "Gradual rollout strategy by store model to mitigate risks.",
+            "Definition of rules for stand-alone operations, transaction timeouts, and coexistence with other TEFs."
           ],
-          result: "Reduced checkout latency and increased approval rate.",
-          technologies: ["API Rest", "TEF", "Cloud"]
+          result: "Reduced friction at sales completion, increased cashier operation reliability, and solid technical foundation for payment method expansion.",
+          technologies: ["API", "TEF", "Local & Cloud"]
         },
         {
           id: "p2",
-          title: "Self Checkout Evolution",
+          title: "Self Checkout Operational Optimization",
           category: "Retail Experience",
-          context: "The legacy discount system created friction in the end-consumer experience at self-checkout.",
-          complexity: "Complex business rules (combos, buy 3 pay 2) conflicted with the simplified totem UX.",
-          role: "Product Manager responsible for journey redesign.",
+          context: "The legacy Self Checkout flow presented high operational friction and recurrent weight verification failures, directly impacting customer experience, operator confidence, and store operation stability.",
+          complexity: "High technical and operational complexity, involving hardware integration (scales), multiple flow states, dynamic weight tolerance, and the need for real-time responses without compromising self-service UX.",
+          role: "Product Manager responsible for field discovery and Self Checkout journey optimization",
           decisions: [
-            "Simplifying the promotion engine on the front-end.",
-            "Deep investigation (Discovery) with users in-store.",
-            "Refactoring cart calculation for performance."
+            "Optimization of weight verification flow",
+            "Refactoring of scale architecture",
+            "Smarter weight tolerance control"
           ],
-          result: "Increased Self Checkout adoption and reduced queue time.",
+          result: "More fluid, stable, and reliable Self Checkout experience, with fewer interruptions and less dependence on human support.",
           technologies: ["UX Research", "Hardware Integration", "Analytics"]
         },
         {
           id: "p3",
-          title: "Patrio Product (AI + Low Code)",
-          category: "Innovation",
-          context: "Demand for rapid creation of internal apps without excessive reliance on senior devs.",
-          complexity: "Balancing flexibility (Low Code) with governance and corporate security.",
-          role: "Product Vision and Go-to-Market.",
+          title: "Patrio (Wealth Management)",
+          category: "AI & Investments",
+          context: "Growing demand for control and visibility of personal wealth, including financial investments and real estate, in a centralized, simple, and decision-oriented way.",
+          complexity: "Precise calculation of profitability, appreciation, and return adjusted by asset class.",
+          role: "Founder & Product Engineer",
           decisions: [
-            "Initial focus on administrative use cases to validate MVP.",
-            "Native integration with AI for query generation.",
-            "Definition of security guardrails from day 0."
+            "Positioning the product as an executive investment management dashboard, not operational control.",
+            "Clearly separating financial and real estate assets, respecting their distinct return dynamics.",
+            "Architecture prepared to scale as a wealth intelligence SaaS platform."
           ],
-          result: "40% reduction in delivery time for internal tools.",
+          result: "Real-time executive view of wealth evolution, profitability, and capital allocation, enabling more strategic, fast, and data-driven investment decisions.",
           technologies: ["AI/LLM", "Low Code", "SaaS"]
         },
         {
