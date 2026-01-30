@@ -1,4 +1,4 @@
-import { ContentData } from './types';
+import { ContentData } from './types.ts';
 
 export const CONTENT: Record<'pt' | 'en', ContentData> = {
   pt: {
@@ -133,7 +133,8 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
             "Arquitetura preparada para escalar como plataforma SaaS de inteligência patrimonial."
           ],
           result: "Visão executiva, em tempo real, da evolução patrimonial, rentabilidade e alocação de capital, permitindo decisões de investimento mais estratégicas, rápidas e fundamentadas em dados.",
-          technologies: ["AI/LLM", "Low Code", "SaaS"]
+          technologies: ["AI/LLM", "Low Code", "SaaS"],
+          link: "https://patrio.vercel.app/"
         },
         {
           id: "p4",
@@ -391,7 +392,8 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
             "Architecture prepared to scale as a wealth intelligence SaaS platform."
           ],
           result: "Real-time executive view of wealth evolution, profitability, and capital allocation, enabling more strategic, fast, and data-driven investment decisions.",
-          technologies: ["AI/LLM", "Low Code", "SaaS"]
+          technologies: ["AI/LLM", "Low Code", "SaaS"],
+          link: "https://patrio.vercel.app/"
         },
         {
           id: "p4",
