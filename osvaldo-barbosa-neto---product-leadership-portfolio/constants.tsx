@@ -122,7 +122,7 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
         },
         {
           id: "p3",
-          title: "Patrio (Gestão de Patrimônio)",
+          title: "Megmoney (Gestão Financeira)",
           category: "AI & Investments",
           context: "Crescimento da demanda por controle e visibilidade do patrimônio pessoal, incluindo investimentos financeiros e imóveis, de forma centralizada, simples e orientada à tomada de decisão.",
           complexity: "Apuração precisa de rentabilidade, valorização e retorno ajustado por classe de ativo.",
@@ -134,7 +134,7 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
           ],
           result: "Visão executiva, em tempo real, da evolução patrimonial, rentabilidade e alocação de capital, permitindo decisões de investimento mais estratégicas, rápidas e fundamentadas em dados.",
           technologies: ["AI/LLM", "Low Code", "SaaS"],
-          link: "https://patrio.vercel.app/"
+          link: "https://megmoney.com.br/"
         },
         {
           id: "p4",
@@ -381,7 +381,7 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
         },
         {
           id: "p3",
-          title: "Patrio (Wealth Management)",
+          title: "Megmoney (Financial Management)",
           category: "AI & Investments",
           context: "Growing demand for control and visibility of personal wealth, including financial investments and real estate, in a centralized, simple, and decision-oriented way.",
           complexity: "Precise calculation of profitability, appreciation, and return adjusted by asset class.",
@@ -393,7 +393,7 @@ export const CONTENT: Record<'pt' | 'en', ContentData> = {
           ],
           result: "Real-time executive view of wealth evolution, profitability, and capital allocation, enabling more strategic, fast, and data-driven investment decisions.",
           technologies: ["AI/LLM", "Low Code", "SaaS"],
-          link: "https://patrio.vercel.app/"
+          link: "https://megmoney.com.br/"
         },
         {
           id: "p4",
