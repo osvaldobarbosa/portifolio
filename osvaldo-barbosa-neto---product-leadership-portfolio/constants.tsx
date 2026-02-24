@@ -3,7 +3,7 @@ import { ContentData } from './types.ts';
 export const CONTENT: Record<'pt' | 'en', ContentData> = {
   pt: {
     hero: {
-      headline: "Eu lidero produtos que transformam decisões em resultados.",
+      headline: "Lidero produtos que transformam problemas em resultados de mercado.",
       subheadline: "Produto acontece no encontro entre pessoas, tecnologia e negócio. Meu papel é liderar decisões com contexto, alinhar times e transformar complexidade em soluções que geram impacto real no dia a dia.",
       context: "Liderar produto é navegar na complexidade. Meu trabalho é transformar essa complexidade em soluções que funcionam no mundo real.",
       cards: [
